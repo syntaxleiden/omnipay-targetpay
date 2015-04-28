@@ -16,12 +16,21 @@ class IdealPurchaseRequest extends PurchaseRequest
     
     public function setSepa($value)
     {
+<<<<<<< Updated upstream
             return $this->setParameter('cinfo_in_callback', $value);
     }
 
     public function getSepa()
     {
             return $this->getParameter('cinfo_in_callback');
+=======
+	    return $this->setParameter('cinfo_in_callback', $value);
+    }
+    
+    public function getSepa()
+    {
+	    return $this->getParameter('cinfo_in_callback');
+>>>>>>> Stashed changes
     }
 
     /**
